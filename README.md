@@ -45,7 +45,7 @@ products from concept to release with engineering, marketing, sales and support.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**DMX Haze Regulator**](https://github.com/achiappone/DMX_Haze_Regulator) | Closed-loop haze control: PM2.5 sensor → DMX512 output, with a live web UI, OTA updates and a watchdog | ESP32-S3, C++, I2C, RS-485 |
+| [**Particle Analyzer & Doser**](https://github.com/achiappone/DMX_Haze_Regulator) | Closed-loop particle control: PM2.5 particle sensor → DMX512 dosing output, with a live web UI, OTA updates and a watchdog | ESP32-S3, C++, I2C, RS-485 |
 | [**K2 Plus Dashboard**](https://github.com/achiappone/k2plus-dashboard) | Read-only proxy dashboard for a Klipper/Moonraker printer, including an in-browser WebRTC camera negotiation | Python (stdlib only), JS |
 | [**Development Dashboard**](https://github.com/achiappone/pve-stack) | Remote and performance monitoring for a self-hosted dev server: live host metrics, service health, camera feeds, one-click deploys, network failover | TypeScript, Python, Bash, systemd |
 | [**OpenMarine Pi**](https://github.com/achiappone/openMarineChipAjoi) | Raspberry Pi boat computer: Signal K, NMEA 2000 over CAN, engine diagnostics, config managed as code | Pi 4, Node, Python, Ansible |
