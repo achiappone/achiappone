@@ -9,6 +9,7 @@ My path here was technical writer → product engineer → product manager → s
 I still ship code alongside the engineering team, so I understand both the product requirements and the implementation.
 
 **Core stack:** TypeScript · React · React Native · Node.js · MobX-State-Tree · Python · C/C++ (ESP32 / ESP-IDF / Arduino) · C#
+**UI:** Dashboard and front-end UI design: live data, status and control interfaces for hardware
 **Protocols:** DMX512 · RDM (ANSI E1.20) · Art-Net · sACN · OSC · BLE · NFC · NMEA 2000 / CAN · WebRTC
 **Ops:** GitHub Actions · Proxmox / LXC · systemd · Docker · Cloudflare Tunnel · Ansible
 
@@ -46,8 +47,8 @@ products from concept to release with engineering, marketing, sales and support.
 | Project | What it is | Stack |
 |---|---|---|
 | [**Particle Analyzer & Doser**](https://github.com/achiappone/DMX_Haze_Regulator) | Closed-loop particle control: PM2.5 particle sensor → DMX512 dosing output, with a live web UI, OTA updates and a watchdog | ESP32-S3, C++, I2C, RS-485 |
-| [**K2 Plus Dashboard**](https://github.com/achiappone/k2plus-dashboard) | Read-only proxy dashboard for a Klipper/Moonraker printer, including an in-browser WebRTC camera negotiation | Python (stdlib only), JS |
-| [**Development Dashboard**](https://github.com/achiappone/pve-stack) | Remote and performance monitoring for a self-hosted dev server: live host metrics, service health, camera feeds, one-click deploys, network failover | TypeScript, Python, Bash, systemd |
+| [**K2 Plus Dashboard**](https://github.com/achiappone/k2plus-dashboard) | Read-only proxy dashboard (UI designed and built) for a Klipper/Moonraker printer, including an in-browser WebRTC camera negotiation | Python (stdlib only), JS |
+| [**Development Dashboard**](https://github.com/achiappone/pve-stack) | Dashboard UI for remote and performance monitoring of a self-hosted dev server: live host metrics, service health, camera feeds, one-click deploys, network failover | TypeScript, Python, Bash, systemd |
 | [**OpenMarine Pi**](https://github.com/achiappone/openMarineChipAjoi) | Raspberry Pi boat computer: Signal K, NMEA 2000 over CAN, engine diagnostics, config managed as code | Pi 4, Node, Python, Ansible |
 | [**K2 ESP32 Cam**](https://github.com/achiappone/k2_esp32_cam) | Single-file camera firmware whose endpoints match the dashboard's relay | ESP32-CAM, C++ |
 | [**NVWAPP**](https://github.com/achiappone/NVWAPP) | LED video-wall planner that generates PDF system documentation | React Native (Expo), TypeScript |
