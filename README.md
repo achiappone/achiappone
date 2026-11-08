@@ -6,7 +6,7 @@ B.S., Engineering (DeVry University) · 15 years at Chauvet Professional · Sunr
 I build software that talks to hardware: mobile apps that configure fixtures over BLE and NFC,
 RDM and DMX protocol work, ESP32 firmware, and the web tools and infrastructure around them.
 My path here was technical writer → product engineer → product manager → senior product manager.
-Since June 2022 I have been writing and debugging code in the product codebases alongside the engineering team, so I understand both the product requirements and the implementation.
+Since June 2021 I have been writing and debugging code in the product codebases alongside the engineering team, so I understand both the product requirements and the implementation.
 
 **Core stack:** TypeScript · React · React Native · Node.js · MobX-State-Tree · Python · C/C++ (ESP32 / ESP-IDF / Arduino) · C#
 **UI:** Dashboard and front-end UI design: live data, status and control interfaces for hardware
